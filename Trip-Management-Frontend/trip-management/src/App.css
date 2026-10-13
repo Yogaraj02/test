@@ -1,0 +1,10 @@
+body { margin: 20px; background: #16171b; color: #f5f5f5; font-family: Arial, sans-serif; text-align: center; }
+h1 { margin: 16px 0; font-size: clamp(30px, 7vw, 52px); }
+h2 { margin: 12px 0; }
+h3, p { margin: 6px 0; overflow-wrap: anywhere; }
+p { color: #b3b9c2; }
+input, button { background: #454545; color: white; border: 1px solid #858585; border-radius: 2px; padding: 3px; }
+input { width: 165px; max-width: 100%; color-scheme: dark; }
+input::placeholder { color: #c4c4c4; }
+button { cursor: pointer; padding: 3px 8px; }
+input:focus-visible, button:focus-visible { outline: 2px solid white; outline-offset: 2px; }
